@@ -1,0 +1,44 @@
+/* 
+.new-expense {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+  padding: 0.5rem;
+  margin: 0 1rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #F5EDDC;
+  background-color: #3AB0FF;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  background-color: #3AB0FF;
+  border-color: #3AB0FF;
+}
+
+.new-expense button.alternative {
+  color: #3AB0FF;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  background-color: #ddb3f8;
+} */
+.new-expense{
+
+  justify-content: center;
+  display: flex;
+  /* border: 1px solid red; */
+}

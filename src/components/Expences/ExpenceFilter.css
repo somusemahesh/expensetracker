@@ -1,0 +1,59 @@
+.filter{
+    display: flex;
+    margin: 20px;
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    background-color: #277BC0;
+
+}
+.filterfirstblock{
+    flex: 50%;
+    font-size: 20px;
+    
+    color:white;
+    font-weight: 50px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtersecondblock{
+    flex: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.selectyears{
+    font-size: 1.5rem;
+    padding:0px 7px;
+    border-radius: 10px;
+    /* background-color: #FFCB42; */
+}
+.selectyears option{
+    border-radius: 12px;
+}
+@media(max-width:590px){
+
+.selectyears{
+    font-size: 1rem;
+    padding:0px 7px;
+    border-radius: 10px;
+    /* background-color: #FFCB42; */
+}
+.filterfirstblock p{
+    font-size: 15px;
+}
+}
+@media(max-width:470px){
+
+    .selectyears{
+        font-size: 0.5rem;
+        padding:0px 7px;
+        border-radius: 10px;
+        /* background-color: #FFCB42; */
+    }
+    .filterfirstblock p{
+        font-size: 8px;
+    }
+    }

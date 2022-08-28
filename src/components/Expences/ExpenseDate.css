@@ -1,0 +1,107 @@
+
+.expense-date{
+    /* background-color: #F15412; */
+  border-radius: 20px;
+    /* margin-right: 550px; */
+
+  background-image:url('https://cdn.xxl.thumbs.canstockphoto.com/icon-calendar-empty-calendar-icon-three-dimensional-rendering-stock-illustrations_csp13066077.jpg') ;
+  background-size: cover;
+  height: 120px;
+  width: 90px;
+  text-align: center;
+  /* border: 1px solid black;  */
+  padding: 10px 30px;
+  color: #000000;
+  font-weight: bold;
+  /* margin-left: 20px; */
+  /* margin-top: -20px; */
+
+}
+
+.expense-date__day{
+    font-size: 30px;
+    text-align: center;
+}
+.expense-date__year{
+  margin-top: 10px;
+  font-size: 25px;
+
+}
+.expense-date__month{
+  margin-top: 10px;
+
+}
+@media only screen and (max-width:850px){
+
+.expense-date{
+    /* background-color: #F15412; */
+  border-radius: 20px;
+    /* margin-right: 550px; */
+
+  background-image:url('https://cdn.xxl.thumbs.canstockphoto.com/icon-calendar-empty-calendar-icon-three-dimensional-rendering-stock-illustrations_csp13066077.jpg') ;
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  background-color: red;
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #000000;
+  /* margin-left: 20px; */
+  /* margin-top: -20px; */
+
+}
+
+.expense-date__day{
+  font-size: 15px;
+  text-align: center;
+}
+.expense-date__year{
+margin-top: 5px;
+font-size: 15px;
+
+}
+.expense-date__month{
+margin-top: 0px;
+
+}
+}
+@media only screen and (max-width:550px){
+
+  .expense-date{
+      /* background-color: #F15412; */
+    border-radius: 20px;
+      /* margin-right: 550px; */
+  
+    background-image:url('https://cdn.xxl.thumbs.canstockphoto.com/icon-calendar-empty-calendar-icon-three-dimensional-rendering-stock-illustrations_csp13066077.jpg') ;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #000000;
+    /* margin-left: 20px; */
+    /* margin-top: -20px; */
+  
+  }
+  
+  .expense-date__day{
+    font-size: 8px;
+    text-align: center;
+  }
+  .expense-date__year{
+  margin-top: 0px;
+  font-size: 8px;
+  
+  }
+  .expense-date__month{
+  margin-top: 0px;
+  font-size: 8px;
+  } 
+  }
+    
+

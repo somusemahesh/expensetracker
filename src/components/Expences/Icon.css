@@ -1,0 +1,18 @@
+h2{
+    color: #D61C4E;
+    margin: 50px 20px 0px;
+
+}
+h1{
+    margin: 0px 20px;
+    opacity: 0.5;
+}
+.icon{
+    display: flex;
+    margin: 50px;
+}
+img{
+    height: 150px;
+    border-radius: 80px;
+    width: 150px;
+}

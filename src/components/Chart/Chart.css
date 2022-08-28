@@ -1,0 +1,30 @@
+.chart{
+    padding: 1rem;
+    border-radius: 12px;
+    /* background-color: #FFD39A; */
+    text-align: center;
+    /* color: #277BC0; */
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    height: 10rem;
+    /* margin: 0 1rem; */
+    
+    margin: 0 1rem;
+}
+@media screen and (max-width:800px) {
+    .chart{
+        padding: 1rem;
+        border-radius: 12px;
+        /* background-color: #FFD39A; */
+        text-align: center;
+        /* color: #277BC0; */
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        height: 10rem;
+        /* margin: 0 1rem; */
+        
+        /* margin: 0 0.5rem; */
+    }   
+}
