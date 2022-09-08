@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 // import ExpenseDate from "../../ExpenseDate/ExpenseDate";
 import ExpenseDate from './ExpenseDate';
 import "./ExpenseItem.css";
-import Card from '/home/mahesh/ReactJs/expencemanager/src/components/UI/Card.jsx'
+import Card from '../UI/Card';
+// import Card from '/home/mahesh/ReactJs/expencemanager/src/components/UI/Card.jsx'
 function ExpenseItem(props) {
   const [title, setTitle] = useState(props.title);
   console.log('ExpenseItem evaluated by React');
