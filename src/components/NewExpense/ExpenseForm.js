@@ -83,7 +83,7 @@ return (
   <div class="input-container ic2">
     <input id="amount" 
     class="input" 
-    type="text" 
+    type="number" 
     placeholder=" " 
     value={userInput.inputAmount}
     onChange={amountUpdateHandler}/>
@@ -99,7 +99,7 @@ return (
     <div class="cut cut-short"></div>
     <label for="email" class="placeholder">Date</label>
   </div>
-  <button type="text" class="submit">submit</button>
+  <button type="text" class="submit" onClick={()=>setShow(!show)}>submit</button>
 
   </form>:null
 }
