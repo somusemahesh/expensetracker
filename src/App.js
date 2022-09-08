@@ -5,9 +5,10 @@ import { Profiler } from "react";
 // import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 // import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 // import ExpenceHeader from "./components/ExpenceHeader/ExpenceHeader";
-import Expences from "/home/mahesh/ReactJs/expencemanager/src/components/Expences/Expences.jsx";
-import NewExpense from "/home/mahesh/ReactJs/expencemanager/src/components/NewExpense/NewExpense.js"
-
+// import Expences from "/home/mahesh/ReactJs/expencemanager/src/components/Expences/Expences.jsx";
+import Expences from "./components/Expences/Expences";
+// import NewExpense from "/home/mahesh/ReactJs/expencemanager/src/components/NewExpense/NewExpense.js"
+import NewExpense from "./components/NewExpense/NewExpense"
 const dummyexpence=[
 {id: "e1",
 title: "Book stand",
