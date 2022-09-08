@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import React,{useState} from "react"
 import "./App.css";
+import { Profiler } from "react";
 // import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 // import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
 // import ExpenceHeader from "./components/ExpenceHeader/ExpenceHeader";
@@ -48,12 +49,22 @@ const App = () => {
       });
     }
     
+  const callbackFunction=(id,phase,actualDuration,baseDuration,startTime,commitTime,interaction)=>{
+    console.log("ID:"+id+"Phase is:"+phase)
+    console.log("Actual duration is:"+actualDuration+"Base Duration:"+baseDuration)
+    console.log("Start Time:"+startTime+"Commit Time"+commitTime)
+
+}
   return (
     <div className="App">
       <div className="container">
+
+     <Profiler id ="NewExpense" onRender={callbackFunction}>
       <NewExpense onAddExpense={addExpensehandler}/>
+      </Profiler>
+      <Profiler id="expensedata" onRender={callbackFunction}>
       <Expences data={expences}></Expences>
-        
+      </Profiler>
       </div>
 
   
