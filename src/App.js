@@ -14,7 +14,7 @@ const dummyexpence=[
 title: "Book stand",
 title1:"Book Store",
 amount: 2599,
-date: new Date(2020, 7, 14),
+date: new Date(2022, 7, 14),
 },
 { 
 id: "e2", 
@@ -31,9 +31,9 @@ date: new Date(2021, 2, 28),
 },
 {
 id: "e4",
-title: "New Desk (Wooden)",
+title: "Laptop",
 amount: 4599,
-date: new Date(2020, 5, 12),
+date: new Date(2022, 5, 12),
 }];
 
 

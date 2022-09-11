@@ -1,17 +1,22 @@
 
 .form {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 20px;
   box-sizing: border-box;
- 
+  background-image: url("https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b3JhbmdlJTIwZ3JhZGllbnR8ZW58MHx8MHx8&w=1000&q=80 ");
+  background-size: cover;
+    background-repeat: no-repeat;
+   margin-top: 3rem; 
+  color: white;
 
   padding: 20px;
   width: 35%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .title {
-  color: black;
+  
+  color: white;
   
 
   font-family: sans-serif;
@@ -22,7 +27,8 @@
 }
 
 .subtitle {
-  color: black;
+  
+  color: white;
   text-align: center;
 
   font-family: sans-serif;
@@ -52,7 +58,7 @@
   background-color: white;
   border-radius: 12px;
   
-  border: 1px solid black;
+  border: 1px solid white;
   box-sizing: border-box;
   font-size: 18px;
   height: 100%;
@@ -117,10 +123,14 @@
   cursor: pointer;
   font-size: 18px;
   height: 40px;
-  margin-top: 38px;
+  margin: 1rem 0;
   outline: 0;
   text-align: center;
   width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKT2TRV8olFZ50J4wfrHWpYMA9qJmSZT02cTtWEI-J&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .submit:active {
@@ -144,7 +154,11 @@
   cursor: pointer;
   font-size: 18px;
   height: 50px;
-  margin-top: 25px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKT2TRV8olFZ50J4wfrHWpYMA9qJmSZT02cTtWEI-J&s");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  margin-top: 0 1rem;
   outline: 0;
   text-align: center;
   width: 100%;

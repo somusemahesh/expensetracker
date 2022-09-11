@@ -52,6 +52,7 @@ inputTitle:event.target.value,
       inputAmount:'',
       inputDate:'',
     })
+    setShow(!show)
 
   }
 
@@ -99,7 +100,7 @@ return (
     <div class="cut cut-short"></div>
     <label for="email" class="placeholder">Date</label>
   </div>
-  <button type="text" class="submit" onClick={()=>setShow(!show)}>submit</button>
+  <button type="text" class="submit">submit</button>
 
   </form>:null
 }
